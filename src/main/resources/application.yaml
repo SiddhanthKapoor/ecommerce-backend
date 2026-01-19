@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ecommerce-backend
+  data:
+    mongodb:
+      uri: mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.bdxoqxf.mongodb.net/ecommerce?retryWrites=true&w=majority
+      database: ecommerce
+
+razorpay:
+  key-id: YOUR_RAZORPAY_KEY_ID
+  key-secret: YOUR_RAZORPAY_KEY_SECRET
